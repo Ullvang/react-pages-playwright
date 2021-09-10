@@ -1,2 +1,2 @@
 (this["webpackJsonpplaywright-react-ci-cd"]=this["webpackJsonpplaywright-react-ci-cd"]||[]).push([[0],{11:function(t,c,e){"use strict";e.r(c);var n=e(1),i=e.n(n),r=e(3),s=e.n(r),a=(e(8),e(9),e(0));var d=function(){return Object(a.jsx)("div",{children:Object(a.jsx)("h1",{children:"Playwright testing"})})};s.a.render(Object(a.jsx)(i.a.StrictMode,{children:Object(a.jsx)(d,{})}),document.getElementById("root"))},8:function(t,c,e){},9:function(t,c,e){}},[[11,1,2]]]);
-//# sourceMappingURL=main.d2e967ca.chunk.js.map
+//# sourceMappingURL=main.a2822f7e.chunk.js.map
