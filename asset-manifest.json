@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-pages-playwright/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/react-pages-playwright/static/js/main.d2e967ca.chunk.js",
+    "main.js.map": "/react-pages-playwright/static/js/main.d2e967ca.chunk.js.map",
+    "runtime-main.js": "/react-pages-playwright/static/js/runtime-main.a3c9a61c.js",
+    "runtime-main.js.map": "/react-pages-playwright/static/js/runtime-main.a3c9a61c.js.map",
+    "static/js/2.cedae7f4.chunk.js": "/react-pages-playwright/static/js/2.cedae7f4.chunk.js",
+    "static/js/2.cedae7f4.chunk.js.map": "/react-pages-playwright/static/js/2.cedae7f4.chunk.js.map",
+    "index.html": "/react-pages-playwright/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/react-pages-playwright/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.cedae7f4.chunk.js.LICENSE.txt": "/react-pages-playwright/static/js/2.cedae7f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3c9a61c.js",
+    "static/js/2.cedae7f4.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.d2e967ca.chunk.js"
+  ]
+}
