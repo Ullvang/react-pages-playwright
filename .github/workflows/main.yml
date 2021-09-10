@@ -19,7 +19,7 @@ jobs:
         run: npm install && npm run build
 
       - name: Install Playwright
-        run: npx playwright install-deps
+        run: npx playwright install-deps && npx playwright test
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
