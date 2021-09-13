@@ -21,13 +21,8 @@ jobs:
       - name: serve app
         run: serve -s build & npx wait-on http://localhost:5000
 
-      - name: test
-        run: ls
-
       - name: Install Playwright
         run: npx playwright install-deps && npx playwright install
-      # - name: Run application
-      #   run: serve -s build
 
       - name: Run tests
         run: npx playwright test --browser=all
