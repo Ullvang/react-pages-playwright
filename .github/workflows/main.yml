@@ -22,7 +22,7 @@ jobs:
         run: serve -v
 
       - name: serve app
-        run: serve -s build && npx wait-on http://localhost:5000
+        run: serve -s build & npx wait-on http://localhost:5000
 
       - name: test
         run: ls
