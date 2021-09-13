@@ -1,7 +1,7 @@
 const { test, expect } = require("@playwright/test");
 
 test("local", async ({ page }) => {
-  page.goto("/");
+  page.goto("http:localhost:5000");
   const title = page.locator("#title");
   await expect(title).toHaveText("Playwright testing");
 });
