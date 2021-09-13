@@ -15,8 +15,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Install, build and serve app
-        run: npm install && npm run build && npm install -S serve && serve -s build
+      - name: Install, build
+        run: npm install && npm install -S serve && npm run build
+
+      - name: serve app
+        run: serve -s build
 
       - name: Install Playwright
         run: npx playwright install-deps && npx playwright install
