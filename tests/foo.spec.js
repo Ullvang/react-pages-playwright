@@ -9,7 +9,7 @@ test("local", async ({ page }) => {
 test("local2", async ({ page }) => {
   page.goto("http://localhost:5000");
   const title = page.locator("#great");
-  await expect(title).toHaveText("Ok");
+  await expect(title).toHaveText("Great222");
 });
 
 test("basic test", async ({ page }) => {
