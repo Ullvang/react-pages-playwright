@@ -24,12 +24,17 @@ jobs:
       - name: serve app
         run: serve -s build
 
-      - name: see package
-        run: cat package.json
 
+  build:
+    runs-on: ubuntu-latest
+    needs: build
+    strategy:
+      matrix:
+        node-version: [15.x]
+
+    steps:
       - name: Install Playwright
         run: npx playwright install-deps && npx playwright install
-
       # - name: Run application
       #   run: serve -s build
 
