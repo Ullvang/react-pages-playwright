@@ -6,6 +6,12 @@ test("local", async ({ page }) => {
   await expect(title).toHaveText("Playwright testing");
 });
 
+test("local2", async ({ page }) => {
+  page.goto("http://localhost:5000");
+  const title = page.locator("#great");
+  await expect(title).toHaveText("Ok");
+});
+
 test("basic test", async ({ page }) => {
   await page.goto("https://playwright.dev/");
   const title = page.locator(".navbar__inner .navbar__title");

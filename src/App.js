@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <h1 id="title">Playwright testing</h1>
-      <h2>Great222</h2>
+      <h2 id="great">Great222</h2>
     </div>
   );
 }
