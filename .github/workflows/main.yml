@@ -16,13 +16,16 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Install, build
-        run: npm install && npm install -g serve && npm run build
+        run: npm install && npm install -g serve wait-on && npm run build
 
       - name: see version
         run: serve -v
 
       - name: serve app
-        run: serve -s build
+        run: serve -s build && npx wait-on http://localhost:5000
+
+      - name: test
+        run: ls
 
   test:
     runs-on: ubuntu-latest
@@ -38,7 +41,7 @@ jobs:
       #   run: serve -s build
 
       - name: Run tests
-        run: sleep 30 && npx playwright test --browser=all
+        run: sleep 45 && npx playwright test --browser=all
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
