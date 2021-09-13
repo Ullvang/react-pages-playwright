@@ -16,10 +16,14 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Install, build
-        run: npm install && npm install -S serve && npm run build
+        run: npm install && npm install -g serve && npm run build
 
-      # - name: serve app
-      #   run: serve -s build
+      - name: see version
+        run: serve -v
+
+      - name: serve app
+        run: serve -s build
+
       - name: see package
         run: cat package.json
 
