@@ -1,2 +1,0 @@
-(this["webpackJsonpplaywright-react-ci-cd"]=this["webpackJsonpplaywright-react-ci-cd"]||[]).push([[0],{11:function(t,c,e){"use strict";e.r(c);var n=e(1),r=e.n(n),i=e(3),s=e.n(i),a=(e(8),e(9),e(0));var h=function(){return Object(a.jsxs)("div",{children:[Object(a.jsx)("h1",{children:"Playwright testing"}),Object(a.jsx)("h2",{children:"Great"})]})};s.a.render(Object(a.jsx)(r.a.StrictMode,{children:Object(a.jsx)(h,{})}),document.getElementById("root"))},8:function(t,c,e){},9:function(t,c,e){}},[[11,1,2]]]);
-//# sourceMappingURL=main.38c5ad5c.chunk.js.map
