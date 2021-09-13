@@ -18,8 +18,10 @@ jobs:
       - name: Install, build
         run: npm install && npm install -S serve && npm run build
 
-      - name: serve app
-        run: serve -s build
+      # - name: serve app
+      #   run: serve -s build
+      - name: see package
+        run: cat package.json
 
       - name: Install Playwright
         run: npx playwright install-deps && npx playwright install
